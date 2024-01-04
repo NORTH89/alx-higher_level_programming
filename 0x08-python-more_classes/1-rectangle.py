@@ -1,17 +1,24 @@
 #!/usr/bin/python3
+"""Defines a rectangle"""
 
 
 class Rectangle:
+    """Defines a rectangle based on 0-rectangle.py"""
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
 
     @property
     def height(self):
+        """Set width attribute"""
+
         return self.__height
 
     @height.setter
     def height(self, value):
+        """Set width attribute"""
+
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
