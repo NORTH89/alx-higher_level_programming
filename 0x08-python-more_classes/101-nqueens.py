@@ -109,6 +109,7 @@ def recursive_solve(board, row, queens, solutions):
 
 
 if __name__ == "__main__":
+    """Entry point for the program."""
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
