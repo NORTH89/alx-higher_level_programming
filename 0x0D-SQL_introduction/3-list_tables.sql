@@ -1,5 +1,2 @@
--- Connect to the MySQL server and select the database
-USE mysql;
-
--- List all the tables in the selected database
+-- lists all the tables of a database in MySQL
 SHOW TABLES;
