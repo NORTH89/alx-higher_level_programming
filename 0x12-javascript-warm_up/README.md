@@ -30,4 +30,15 @@ The length of your files will be tested using wc
 
 ## More Info
 
-Install Node 14
+# Install Node 14 and semi-standard
+
+Install Node 14 and semi-standard using the instructions on the official Node.js website and NPM website.
+
+## Install Node 14
+
+Run the following command:
+
+```
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
