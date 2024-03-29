@@ -1,24 +1,20 @@
 #!/usr/bin/python3
 """ Sends a POST request to the passed URL with the email as a parameter"""
-import requests
+
 import sys
+import requests
 
-url = "http://0.0.0.0:5000/search_user"
 
-if len(sys.argv) > 1:
-    q = sys.argv[1]
-else:
-    q = ""
+if __name__ == "__main__":
+    query = "" if len(sys.argv) == 1 else sys.argv[1]
+    payload = {"q": query}
 
-r = requests.post(url, data={"q": q})
-
-try:
-    res = r.json()
-except ValueError:
-    print("Not a valid JSON")
-
-if not res:
-    print("No result")
-else:
-    for user in res:
-        print("[{}] {}".format(user["id"], user["name"]))
+    req = requests.post("http://0.0.0.0:5000/search_user", data=payload)
+    try:
+        response = req.json()
+        if response == {}:
+            print("No result")
+        else:
+            print("[{}] {}".format(response.get("id"), response.get("name")))
+    except ValueError:
+        print("Not a valid JSON")
