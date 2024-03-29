@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+""" Uses GitHub API to display your id
 """
 import sys
 import requests
