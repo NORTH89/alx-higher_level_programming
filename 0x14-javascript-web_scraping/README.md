@@ -1,5 +1,5 @@
-**## JSON**
-## Resources
+## JSON
+**Resources**
 
 Read or watch:
 
