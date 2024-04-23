@@ -1,4 +1,6 @@
-Resources
+**# JSON**
+## Resources
+
 Read or watch:
 
 [Working with JSON data](https://youtu.be/h4Y1Ry2YR4g)
@@ -23,23 +25,21 @@ You will not be able to meet the objectives of this or any following project by 
 You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
 
-Requirements
-------------
+## Requirements
 
 [General](#general)
 
-*   Allowed editors: vi, vim, emacs
-*   All your files will be interpreted on Ubuntu 20.04 LTS using node (version 14.x)
-*   All your files should end with a new line
-*   The first line of all your files should be exactly `#!/usr/bin/node`
-*   A [README.md](README.md) file, at the root of the folder of the project, is mandatory
-*   Your code should be [semistandard](https://github.com/Flet/semistandard) compliant. Rules of [Standard](https://standardjs.com/) + semicolons on top. Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
-*   All your files must be executable
-*   The length of your files will be tested using `wc`
-*   You are not allowed to use `var`
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted on Ubuntu 20.04 LTS using node (version 14.x)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/node`
+- A [README.md](README.md) file, at the root of the folder of the project, is mandatory
+- Your code should be [semistandard](https://github.com/Flet/semistandard) compliant. Rules of [Standard](https://standardjs.com/) + semicolons on top. Also as reference: [AirBnB style](https://github.com/airbnb/javascript)
+- All your files must be executable
+- The length of your files will be tested using `wc`
+- You are not allowed to use `var`
 
-More Info
------------
+## More Info
 
 [Install Node 14](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
