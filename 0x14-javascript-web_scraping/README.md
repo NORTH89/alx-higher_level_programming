@@ -43,4 +43,4 @@ More Info
 
 [Install Node 14](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 
-$ export NODE_PATH=/usr/lib/node_modules
+`$ export NODE_PATH=/usr/lib/node_modules`
